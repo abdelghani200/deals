@@ -1,7 +1,5 @@
 package com.example.deals.exception;
 
-public package com.example.deals.exception;
-
 import lombok.Getter;
 
 @Getter
@@ -14,6 +12,4 @@ public class DuplicateDealException extends RuntimeException{
     }
 
 }
- {
-    
-}
+

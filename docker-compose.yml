@@ -10,7 +10,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
-      - "5433:5433"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -26,7 +26,7 @@ services:
       postgres:
         condition: service_healthy
     ports:
-      - "9090:9090"
+      - "8081:8081"
     env_file: .env
     environment:
       DB_HOST: postgres

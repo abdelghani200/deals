@@ -1,6 +1,5 @@
 package com.example.deals.mapper;
 
-public package com.example.deals.mapper;
 
 import com.example.deals.dto.DealRequestDto;
 import com.example.deals.dto.DealResponseDto;
@@ -14,7 +13,4 @@ public interface DealMapper {
 
     DealResponseDto toDto(Deal entity);
 
-}
- {
-    
 }
